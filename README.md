@@ -20,14 +20,17 @@ To update the router training data:
    ```text
    RoG-webqsp_train_router_labels.jsonl
    RoG-cwq_new.jsonl
+   ```
 
 2. Run the data collection script:
 
    ```text
    python3 collect_router_training_data.py
+   ```
 
 3. The script will automatically generate two output files:
 
    ```text
    clean_router_training_data.jsonl
    correct_router_lines.jsonl
+   ```
