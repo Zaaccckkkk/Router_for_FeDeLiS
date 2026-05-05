@@ -1,0 +1,102 @@
+query_id,benchmark,task_type,status,query,hop,comparable_target_exists,gold_depth,gold_width,pred_depth,pred_width,pred_cost,pred_score,pred_support_fbeta,pred_support_recall,pred_support_precision,pred_llm_f1,best_depth,best_width,best_support_fbeta,baseline_support_fbeta,baseline_llm_f1,best_minus_pred_support_fbeta,pred_minus_baseline_support_fbeta,fold
+S104,CL-LT-KGQA,qa,unresolved,Could Kim Dae-jung form a polo team from his children?,2,True,1,3,1,3,3,-0.23524494469165802,1.0,1.0,1.0,0.0,1,3,1.0,0.3846153846153846,0.0,0.0,0.6153846153846154,1
+S105,CL-LT-KGQA,qa,unresolved,Could an escapee swim nonstop from Kfarfou to Bezenjan?,3,True,2,2,1,3,3,-0.18332162499427795,0.7142857142857143,1.0,0.3333333333333333,0.0,2,2,0.8333333333333334,0.0,0.0,0.11904761904761907,0.7142857142857143,1
+S107,CL-LT-KGQA,qa,unresolved,Did Vincenzo Gamba have any cousins on his father's side?,3,False,,,1,3,3,-0.295259952545166,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S108,CL-LT-KGQA,qa,resolved,Would it be very likely for Mostafa Salimi to be familiar with Sholezard?,3,False,,,1,3,3,-0.06960750371217728,0.0,0.0,0.0,1.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S115,CL-LT-KGQA,qa,resolved,Is it likely for Umid Zokirov to avoid eating a McRib sandwich?,3,True,1,1,1,1,1,0.33795660734176636,0.5,0.5,0.5,1.0,1,1,0.5,0.5,1.0,0.0,0.0,1
+S116,CL-LT-KGQA,qa,resolved,Could a USB flash drive be pictured in Osmondagi bolalar?,3,False,,,1,3,3,-0.1021900326013565,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S120,CL-LT-KGQA,qa,resolved,Are workers at Vidol likely to eat with chopsticks?,2,True,1,1,1,1,1,-0.18077334761619568,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,1
+S122,CL-LT-KGQA,qa,resolved,Could Myrto Altinoglou use email when she was a child?,2,False,,,4,1,4,-0.015930013731122017,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S125,CL-LT-KGQA,qa,resolved,Could Khalil Rabenou have bought a car from Iran Khodro Diesel?,3,False,,,1,3,3,1.064272403717041,0.0,0.0,0.0,1.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S133,CL-LT-KGQA,qa,unresolved,Is Jazmin Bean a good role model for young girls?,2,True,1,5,1,3,3,-0.21016541123390198,0.0,0.0,0.0,0.0,1,5,0.5555555555555556,0.0,0.0,0.5555555555555556,0.0,1
+S138,CL-LT-KGQA,qa,resolved,Could the Kalashnikov rifle have been used in the Second Sino-Japanese War?,3,False,,,1,1,1,-1.3951259851455688,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,1
+S157,CL-LT-KGQA,qa,unresolved,Has Giacomo Beretta played in more teams than Andrea Schenetti?,3,True,1,5,1,3,3,-0.1650789976119995,0.42857142857142855,0.375,1.0,0.0,1,5,0.6756756756756757,0.15151515151515152,0.0,0.2471042471042471,0.277056277056277,1
+S161,CL-LT-KGQA,qa,unresolved,Could Ilary Blasi's children fill out a water polo team?,2,False,,,1,3,3,-0.16303110122680664,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S162,CL-LT-KGQA,qa,resolved,Could a Cheick Tioté have a son born after 2020?,2,False,,,1,1,1,-0.330516517162323,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,1
+S167,CL-LT-KGQA,qa,resolved,Would Marjan Faritous look odd with a moustache?,2,True,1,1,1,1,1,4.875474452972412,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,1
+S169,CL-LT-KGQA,qa,unresolved,Would it be likely for Divakarapandita to travel to Jerusalem as a religous ritual?,3,True,1,1,1,3,3,1.6708903312683105,0.35714285714285715,0.5,0.16666666666666666,0.0,1,1,0.5,0.5,0.0,0.14285714285714285,-0.14285714285714285,1
+S174,CL-LT-KGQA,qa,unresolved,Did Alan Hamel's wife pass away?,2,True,1,1,4,1,4,-0.05263611674308777,0.5555555555555556,0.5,1.0,0.0,1,1,0.5555555555555556,0.5555555555555556,0.0,0.0,0.0,1
+S176,CL-LT-KGQA,qa,resolved,Did Giuseppe Favalli play soccer in three different centuries?,2,False,,,1,1,1,-0.8845693469047546,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,1
+S179,CL-LT-KGQA,qa,resolved,Did Paolo Maldini receive enough awards to substitute the pins in a bowling alley lane with his awards?,2,True,1,3,1,3,3,-0.04170805960893631,0.48387096774193544,0.42857142857142855,1.0,0.0,1,3,0.48387096774193544,0.17241379310344823,0.0,0.0,0.3114571746384872,1
+S188,CL-LT-KGQA,qa,resolved,Is it likely for most employees of Beverina Productions to live in Europe?,2,False,,,1,1,1,0.8904204964637756,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,1
+S189,CL-LT-KGQA,qa,resolved,Could Bernard Gohienetxe have travelled with Ebrahim Khan Kalantar?,3,False,,,1,2,2,-0.5818274617195129,0.0,0.0,0.0,1.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S191,CL-LT-KGQA,qa,resolved,Is it correct to consider Aḥmad ibn Muḥammad Ibn al-Surá a polymath?,2,True,1,2,1,2,2,-0.3721655309200287,0.7142857142857142,0.6666666666666666,1.0,1.0,1,2,0.7142857142857142,0.3846153846153846,0.0,0.0,0.3296703296703296,1
+S194,CL-LT-KGQA,qa,resolved,Could Frédéric Vidalens have attended Lionel Lundell's birthday party?,3,False,,,1,1,1,0.7964542508125305,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,1
+S22,CL-LT-KGQA,qa,resolved,Is 3D printing able to make Oliverpabstia?,3,False,,,1,2,2,-0.42084038257598877,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S3,CL-LT-KGQA,qa,resolved,Does Leopold Lanner's wife make a living using her voice?,2,True,1,1,1,1,1,1.7761424779891968,0.5555555555555556,0.5,1.0,1.0,1,1,0.5555555555555556,0.5555555555555556,1.0,0.0,0.0,1
+S38,CL-LT-KGQA,qa,resolved,Could Giorgos Zygouris have voted for Kim Jong-un?,3,True,1,1,1,1,1,-0.5332967042922974,0.5,0.5,0.5,1.0,1,1,0.5,0.5,1.0,0.0,0.0,1
+S40,CL-LT-KGQA,qa,resolved,Could Sura Iskenderli have had a performance during the Iran-Iraq war?,3,False,,,1,3,3,-0.1496170610189438,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S47,CL-LT-KGQA,qa,resolved,Could Ludmilla Pajo have operated a motor vehicle?,3,False,,,1,3,3,-0.2815556824207306,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,1
+S61,CL-LT-KGQA,qa,resolved,Is it likely for Aaron Hyman to avoid a dish with ham?,2,False,,,1,1,1,-0.24666938185691833,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,1
+S70,CL-LT-KGQA,qa,resolved,Would a silicon shortage cause a crisis for Regio Călători's sales?,2,False,,,1,1,1,-5.874908447265625,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,1
+S77,CL-LT-KGQA,qa,resolved,Would it be difficult to host the Viking Cup in the birthplace of Mihera Bint Abboud?,2,True,1,1,1,3,3,-0.07143179327249527,0.5,1.0,0.16666666666666666,0.0,1,1,0.8333333333333334,0.8333333333333334,0.0,0.33333333333333337,-0.33333333333333337,1
+S79,CL-LT-KGQA,qa,resolved,Would it be plausible to say that one of Regio Călători's vehicles has broken the sound barrier?,2,True,1,1,1,1,1,-1.2494922876358032,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,1
+S83,CL-LT-KGQA,qa,unresolved,Is it likely for Shappi Khorsandi to believe in the barzakh?,3,True,1,2,1,3,3,1.6275345087051392,0.7142857142857143,1.0,0.3333333333333333,0.0,1,2,0.8333333333333334,0.5,0.0,0.11904761904761907,0.2142857142857143,1
+S96,CL-LT-KGQA,qa,unresolved,Is it likely for Adrian Rochet to skip celebrating Easter?,1,True,1,1,1,1,1,3.8857951164245605,0.5,0.5,0.5,0.0,1,1,0.5,0.5,0.0,0.0,0.0,1
+S106,CL-LT-KGQA,qa,unresolved,Could any product of the Yerevan Jewellery Plant be worn around the ankle?,2,True,1,5,1,1,1,0.3569130599498749,0.19999999999999996,0.16666666666666666,1.0,0.0,1,5,0.8620689655172415,0.19999999999999996,0.0,0.6620689655172416,0.0,2
+S11,CL-LT-KGQA,qa,unresolved,Is the author of Tartarin of Tarascon buried in the same cemetery as Georges Rodenbach?,4,True,1,1,1,1,1,0.34971803426742554,0.7142857142857142,0.6666666666666666,1.0,0.0,1,1,0.7142857142857142,0.7142857142857142,0.0,0.0,0.0,2
+S114,CL-LT-KGQA,qa,unresolved,Would tendonitis seriously impact Samender Juginisov’s ability to do his job?,2,True,1,1,1,1,1,0.5146390795707703,1.0,1.0,1.0,0.0,1,1,1.0,1.0,0.0,0.0,0.0,2
+S126,CL-LT-KGQA,qa,resolved,Could Nusrat Bhutto have worn a Mountain Warehouse jacket when her husband became president?,4,False,,,1,1,1,0.4664735496044159,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,2
+S129,CL-LT-KGQA,qa,resolved,Could Ri Song-hui have voted for Roh Moo-hyun?,3,True,1,1,1,1,1,0.468447744846344,0.8333333333333334,1.0,0.5,1.0,1,1,0.8333333333333334,0.8333333333333334,1.0,0.0,0.0,2
+S134,CL-LT-KGQA,qa,unresolved,Does Asami Natsumoto have the same profession as Aeri Ikeda?,3,True,1,1,1,1,1,0.6949369311332703,1.0,1.0,1.0,0.0,1,1,1.0,1.0,0.0,0.0,0.0,2
+S135,CL-LT-KGQA,qa,unresolved,Could Liau Hiok-hian and Virginia Raggi have met while they both held the position of council member?,3,False,,,1,1,1,0.4459194839000702,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S136,CL-LT-KGQA,qa,unresolved,Could a monolingual Slovenian read Yoshimitsu's native name?,2,False,,,1,1,1,0.3858295977115631,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S14,CL-LT-KGQA,qa,resolved,Could a local fan of the Botany Swarm vote for John Key?,3,True,1,1,1,1,1,0.37996360659599304,0.5,0.5,0.5,1.0,1,1,0.5,0.5,1.0,0.0,0.0,2
+S141,CL-LT-KGQA,qa,resolved,Would a vegan eat a Fabada asturiana dish?,2,False,,,1,1,1,0.5030491948127747,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,2
+S144,CL-LT-KGQA,qa,unresolved,Has Rodney Strasser lived in more than one century?,2,False,,,1,1,1,0.439975768327713,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S145,CL-LT-KGQA,qa,resolved,Has Alexander Merkel been a member of at least a baker’s dozen of sports teams?,2,True,1,5,1,1,1,0.44243237376213074,0.08771929824561403,0.07142857142857142,1.0,0.0,1,5,0.40983606557377056,0.08771929824561403,0.0,0.32211676732815653,0.0,2
+S146,CL-LT-KGQA,qa,unresolved,Did Ali Hanteh's career as a sportsman end in the same decade that Bader Munshi was born?,3,False,,,1,1,1,0.44926461577415466,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S148,CL-LT-KGQA,qa,resolved,Could Jolina Zamorano and Vivathana Milinthachinda have played together on the same team?,3,False,,,1,1,1,0.4843103587627411,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,2
+S16,CL-LT-KGQA,qa,resolved,Did Dariush Homayoon have greater longevity than Bozorg Alavi?,7,False,,,1,1,1,0.4370516240596771,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,2
+S160,CL-LT-KGQA,qa,unresolved,Could Arsen Minasian travel to Tehran without requiring a passport?,2,True,1,1,1,1,1,0.4833320081233978,0.8333333333333334,1.0,0.5,0.0,1,1,0.8333333333333334,0.8333333333333334,0.0,0.0,0.0,2
+S163,CL-LT-KGQA,qa,resolved,Was it an unhealthy action for anyone to have sexual relationship with Harry Whittaker-Sheppard in the final days of his life?,2,True,1,1,1,1,1,0.4848727285861969,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,2
+S165,CL-LT-KGQA,qa,resolved,Would Marjan Faritous be able to run for US presidency?,2,False,,,1,1,1,0.49251076579093933,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,2
+S17,CL-LT-KGQA,qa,resolved,Could Pippa Middleton's children play monkey in the middle amongst themselves?,2,True,1,3,1,1,1,0.38258033990859985,0.3846153846153846,0.3333333333333333,1.0,0.0,1,3,1.0,0.3846153846153846,0.0,0.6153846153846154,0.0,2
+S18,CL-LT-KGQA,qa,unresolved,Was the 2022 South Korean presidential election won by a member of the People Power Party,3,False,,,1,1,1,0.3884153664112091,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S21,CL-LT-KGQA,qa,resolved,Does Diane von Fürstenberg have citizenship in the country where Astrid Whettnall's mother is from?,4,True,1,1,1,1,1,0.5501576662063599,0.2777777777777778,0.25,0.5,1.0,1,1,0.2777777777777778,0.2777777777777778,1.0,0.0,0.0,2
+S34,CL-LT-KGQA,qa,unresolved,Are any of Mahmoud Dowlatabadi's works in the genre of The Makioka Sisters?,4,True,1,2,1,1,1,0.35619696974754333,0.0,0.0,0.0,0.0,1,2,0.3571428571428571,0.0,0.0,0.3571428571428571,0.0,2
+S36,CL-LT-KGQA,qa,unresolved,Did Juan Antonio Pizzi play for a country other than the place he was born in?,4,False,,,1,1,1,0.6489201188087463,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S4,CL-LT-KGQA,qa,resolved,Would it have been possible for Maria de Ventadorn to speak to someone 100 miles away?,3,False,,,1,1,1,0.4267456829547882,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S41,CL-LT-KGQA,qa,unresolved,Is the tibia necessary for someone to be able to win the Torneo Internazionale Regione Piemonte?,2,True,3,2,1,1,1,0.6108846068382263,0.0,0.0,0.0,0.0,3,2,0.8333333333333334,0.0,0.0,0.8333333333333334,0.0,2
+S48,CL-LT-KGQA,qa,resolved,Could Nizam-ud-din Auliya have served on the Court of Cassation?,3,False,,,1,1,1,0.4570322632789612,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,2
+S5,CL-LT-KGQA,qa,unresolved,Was the predecessor of Ulf Kristersson in the position of Prime Minister a woman?,2,False,,,1,1,1,0.434196799993515,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S57,CL-LT-KGQA,qa,unresolved,"At a presentation about post traumatic stress disorder, would Deena Lynch be a topic of relevance?",2,True,1,1,1,1,1,0.4036663770675659,1.0,1.0,1.0,0.0,1,1,1.0,1.0,0.0,0.0,0.0,2
+S6,CL-LT-KGQA,qa,unresolved,Does the animal that is Miriam Rodon Naveira's university mascot eat kibble?,3,True,1,1,1,1,1,0.42274779081344604,0.5555555555555556,0.5,1.0,0.0,1,1,0.5555555555555556,0.5555555555555556,0.0,0.0,0.0,2
+S65,CL-LT-KGQA,qa,unresolved,Is Channur Khalsa located south of Ziadin?,3,True,1,3,1,2,2,0.42859432101249695,0.4166666666666667,0.5,0.25,0.0,1,3,0.7142857142857143,0.0,0.0,0.2976190476190476,0.4166666666666667,2
+S69,CL-LT-KGQA,qa,resolved,Were commands of the Soviet Union’s government effective in Vilnius one month before the day Soviet Union collapsed?,3,False,,,1,1,1,0.41754382848739624,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S73,CL-LT-KGQA,qa,resolved,Could the Inkatha Freedom Party help Charles Robberts Swart become president?,3,False,,,1,1,1,0.4670729637145996,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,2
+S82,CL-LT-KGQA,qa,resolved,Would a person with the same occupation as Zheng Liangshu be needed during the SCCA ProRally?,2,True,1,1,1,1,1,0.8104062080383301,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,2
+S94,CL-LT-KGQA,qa,resolved,Is it likely for Lionel Lundell to have a mustache in 2024?,2,False,,,1,1,1,0.46841302514076233,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,2
+S1,CL-LT-KGQA,qa,unresolved,"If both places have equal population growth, is the population in Horsens going to reach 60000 before Ikast?",3,False,,,1,2,2,0.9477371573448181,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,3
+S109,CL-LT-KGQA,qa,resolved,Could people have read Mjegull during the Perak war?,3,False,,,1,1,1,0.7116535305976868,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S118,CL-LT-KGQA,qa,unresolved,Does Afghan Independence Day occur during Summer?,2,True,1,1,1,1,1,1.488811731338501,1.0,1.0,1.0,0.0,1,1,1.0,1.0,0.0,0.0,0.0,3
+S119,CL-LT-KGQA,qa,unresolved,Did Karl Marx influence Ludwig Aigner's political views?,1,True,1,5,1,2,2,0.8134430050849915,0.0,0.0,0.0,0.0,1,5,0.29411764705882354,0.0,0.0,0.29411764705882354,0.0,3
+S127,CL-LT-KGQA,qa,resolved,Was Mario Scialoja likely to be an Islamophobe?,2,True,1,1,1,1,1,2.429415464401245,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,3
+S128,CL-LT-KGQA,qa,resolved,Could the Blue House be used as a symbol of the Korean War?,3,False,,,1,1,1,-0.2692223787307739,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S13,CL-LT-KGQA,qa,resolved,Could someone in Vaughan take a taxi to the Jamjuree Art Gallery?,3,False,,,1,1,1,-0.5475702881813049,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S130,CL-LT-KGQA,qa,resolved,Could all of Fath-Ali Shah Qajar’s children hypothetically sit comfortably in a Toyota Corolla?,3,True,1,5,1,3,3,0.9012026190757751,0.24193548387096772,0.21428571428571427,0.5,0.0,1,5,0.3787878787878788,0.0,0.0,0.13685239491691106,0.24193548387096772,3
+S150,CL-LT-KGQA,qa,unresolved,Is it likely for Chandra Khonnokyoong to consult the Diwan Abatur for religious guidance?,4,True,1,3,1,2,2,1.5648319721221924,0.3125,0.3333333333333333,0.25,0.0,1,3,0.5555555555555555,0.3571428571428571,0.0,0.24305555555555547,-0.044642857142857095,3
+S154,CL-LT-KGQA,qa,resolved,is it likely for Julia Nickson-Soul to be familiar with mental auditing?,2,True,1,1,1,1,1,1.7613837718963623,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,3
+S155,CL-LT-KGQA,qa,resolved,Was it likely for Divakarapandita to avoid eating a meat dish?,2,True,1,1,1,1,1,2.473717451095581,1.0,1.0,1.0,0.0,1,1,1.0,1.0,0.0,0.0,0.0,3
+S156,CL-LT-KGQA,qa,resolved,Are people who have been in romantic relationship with Belén Rodríguez enought to form a double game of tennis among them?,2,True,1,2,1,2,2,0.3738142251968384,0.7142857142857142,0.6666666666666666,1.0,1.0,1,2,0.7142857142857142,0.3846153846153846,0.0,0.0,0.3296703296703296,3
+S159,CL-LT-KGQA,qa,resolved,is Marjan Faritous likely to be familiar with Elijah?,3,False,,,1,1,1,2.6429738998413086,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,3
+S164,CL-LT-KGQA,qa,resolved,Would it be likely for David Fenimore Anderson to explain the Pythagorian theorem in a class?,2,True,1,1,1,1,1,1.0068355798721313,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,3
+S166,CL-LT-KGQA,qa,unresolved,Does a person need a college degree to have the same occupation as David Fenimore Anderson?,2,True,1,1,1,1,1,3.806978225708008,1.0,1.0,1.0,0.0,1,1,1.0,1.0,0.0,0.0,0.0,3
+S175,CL-LT-KGQA,qa,resolved,Is Lee Hyori a major singer in the Disco genre?,2,False,,,1,1,1,-1.2104179859161377,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S178,CL-LT-KGQA,qa,resolved,Is it likely for Catholic church to consider Mohammad Kazem Shariatmadari as a saint?,2,False,,,1,1,1,1.3291741609573364,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S19,CL-LT-KGQA,qa,resolved,Is the It's Hyorish an older album than Nasime vasl?,3,False,,,1,2,2,0.5987923741340637,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,3
+S193,CL-LT-KGQA,qa,resolved,Is the name of city where Francesco Renzi was born also a common human name?,2,False,,,1,2,2,1.2494866847991943,0.0,0.0,0.0,1.0,1,1,0.0,0.0,0.0,0.0,0.0,3
+S195,CL-LT-KGQA,qa,resolved,Can you carry an IKCO Samand in a laptop bag?,2,False,,,1,2,2,0.3225530982017517,0.0,0.0,0.0,1.0,1,1,0.0,0.0,0.0,0.0,0.0,3
+S197,CL-LT-KGQA,qa,resolved,Would a toast for Pablo Busatto include margarine instead of butter?,2,True,1,1,1,1,1,2.0874366760253906,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,3
+S29,CL-LT-KGQA,qa,unresolved,Is Lowshan located south of Gubadly?,3,False,,,1,3,3,1.2633874416351318,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,3
+S32,CL-LT-KGQA,qa,resolved,Did creators of the Better call Saul together have at least a baker's dozen of occupations?,5,False,,,1,1,1,1.1696728467941284,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S46,CL-LT-KGQA,qa,resolved,Could Quidam de Revel fit in HMS Abercrombie?,3,True,1,2,1,3,3,1.3011698722839355,0.35714285714285715,0.5,0.16666666666666666,0.0,1,2,0.4166666666666667,0.0,0.0,0.059523809523809534,0.35714285714285715,3
+S53,CL-LT-KGQA,qa,resolved,Could Yusuf Çetin have been a target of Islamophobia?,1,True,2,1,1,2,2,1.6674408912658691,0.8333333333333334,1.0,0.5,0.0,2,1,1.0,0.0,0.0,0.16666666666666663,0.8333333333333334,3
+S55,CL-LT-KGQA,qa,resolved,Did Ala al-Din Muhammad III suffer from a mental disorder?,1,True,1,1,1,1,1,2.794633626937866,1.0,1.0,1.0,0.0,1,1,1.0,1.0,0.0,0.0,0.0,3
+S56,CL-LT-KGQA,qa,resolved,Is the first S in the official abbreviated name of SBS TV's owner named after a city?,2,False,,,1,1,1,1.8443927764892578,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S64,CL-LT-KGQA,qa,resolved,Is Vegeterrible considered an anime?,1,False,,,1,1,1,2.096123695373535,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S68,CL-LT-KGQA,qa,unresolved,Was Digão’s brother playing for a club based in Brazil when Bojana Atanasovska began her career?,4,False,,,1,3,3,0.9869926571846008,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,3
+S7,CL-LT-KGQA,qa,resolved,Was the 2012 United States presidential election a bigger landslide than the one in 2008?,7,False,,,1,1,1,-0.43618249893188477,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S80,CL-LT-KGQA,qa,resolved,Could JAJC be destroyed by a hammer?,2,False,,,1,1,1,-0.4494931101799011,0.0,0.0,0.0,1.0,1,1,0.0,0.0,1.0,0.0,0.0,3
+S85,CL-LT-KGQA,qa,resolved,Did Golin Khanum’s spouse have enough wives to form a Volleyball team from them?,2,True,1,1,1,2,2,0.7283541560173035,0.16666666666666666,0.14285714285714285,0.5,1.0,1,1,0.17241379310344823,0.17241379310344823,0.0,0.005747126436781574,-0.005747126436781574,3
+S88,CL-LT-KGQA,qa,resolved,Is it possible for Rinu to have experienced menstruation?,2,True,1,1,1,1,1,3.1386873722076416,1.0,1.0,1.0,1.0,1,1,1.0,1.0,1.0,0.0,0.0,3

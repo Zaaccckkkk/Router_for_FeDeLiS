@@ -55,13 +55,40 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--head-learning-rate", type=float, default=1e-3)
     parser.add_argument("--weight-decay", type=float, default=0.01)
     parser.add_argument("--dropout", type=float, default=0.2)
-    parser.add_argument("--n-splits", type=int, default=5)
+    parser.add_argument(
+        "--n-splits",
+        type=int,
+        default=3,
+        help=(
+            "Number of cross-validation folds. Use 3 for sweeps and 5 later "
+            "for confirmation. Must be at least 2."
+        ),
+    )
     parser.add_argument("--early-stopping-patience", type=int, default=5)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--pointwise-loss-weight", type=float, default=1.0)
     parser.add_argument("--pairwise-loss-weight", type=float, default=0.5)
     parser.add_argument("--reward-cost-weight", type=float, default=0.05)
     parser.add_argument("--pairwise-margin-weight", type=float, default=1.0)
+    parser.add_argument(
+        "--pairwise-loss-mode",
+        choices=("weighted_logistic", "dynamic_margin"),
+        default="weighted_logistic",
+        help=(
+            "weighted_logistic keeps the original ranking loss and uses "
+            "support_fbeta_margin as a weight; dynamic_margin enforces a "
+            "margin proportional to support_fbeta_margin."
+        ),
+    )
+    parser.add_argument(
+        "--pairwise-dynamic-margin-scale",
+        type=float,
+        default=0.5,
+        help=(
+            "Scale factor gamma for dynamic-margin ranking: "
+            "target_margin = gamma * support_fbeta_margin."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -193,7 +220,8 @@ class PairwiseActionDataset(Dataset):
             return_tensors="pt",
         )
         sign = 1.0 if row["preferred_side"] == "left" else -1.0
-        weight = 1.0 + float(row.get("support_fbeta_margin", 0.0))
+        support_margin = float(row.get("support_fbeta_margin", 0.0))
+        weight = 1.0 + support_margin
         return {
             "left_input_ids": left_encoded["input_ids"].squeeze(0),
             "left_attention_mask": left_encoded["attention_mask"].squeeze(0),
@@ -209,6 +237,7 @@ class PairwiseActionDataset(Dataset):
             ),
             "sign": torch.tensor(sign, dtype=torch.float32),
             "weight": torch.tensor(weight, dtype=torch.float32),
+            "support_fbeta_margin": torch.tensor(support_margin, dtype=torch.float32),
         }
 
 
@@ -335,6 +364,8 @@ def train_pairwise_epoch(
     device: torch.device,
     loss_weight: float,
     margin_weight: float,
+    loss_mode: str,
+    dynamic_margin_scale: float,
 ) -> float:
     model.train()
     total_loss = 0.0
@@ -348,6 +379,7 @@ def train_pairwise_epoch(
         right_numeric_features = batch["right_numeric_features"].to(device)
         sign = batch["sign"].to(device)
         weight = batch["weight"].to(device)
+        support_margin = batch["support_fbeta_margin"].to(device)
 
         optimizer.zero_grad(set_to_none=True)
         left_score = model(
@@ -360,7 +392,14 @@ def train_pairwise_epoch(
             attention_mask=right_attention_mask,
             numeric_features=right_numeric_features,
         )
-        pair_loss = F.softplus(-(left_score - right_score) * sign) * (1.0 + margin_weight * (weight - 1.0))
+        score_gap = (left_score - right_score) * sign
+        if loss_mode == "weighted_logistic":
+            pair_loss = F.softplus(-score_gap) * (1.0 + margin_weight * (weight - 1.0))
+        elif loss_mode == "dynamic_margin":
+            target_margin = dynamic_margin_scale * support_margin
+            pair_loss = F.relu(target_margin - score_gap) * (1.0 + margin_weight * support_margin)
+        else:
+            raise ValueError(f"Unsupported pairwise loss mode: {loss_mode}")
         loss = pair_loss.mean()
         weighted_loss = loss_weight * loss
         weighted_loss.backward()
@@ -551,6 +590,11 @@ def summarize_folds(rows: list[dict[str, Any]], metric_names: list[str]) -> list
 
 def main() -> None:
     args = parse_args()
+    if args.n_splits < 2:
+        raise ValueError(
+            "--n-splits must be at least 2 for cross-validation. "
+            "If you want a single train/eval run, use a separate held-out split instead."
+        )
     set_seed(args.seed)
     device = device_for_run()
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -658,6 +702,8 @@ def main() -> None:
                 device=device,
                 loss_weight=args.pairwise_loss_weight,
                 margin_weight=args.pairwise_margin_weight,
+                loss_mode=args.pairwise_loss_mode,
+                dynamic_margin_scale=args.pairwise_dynamic_margin_scale,
             )
 
             val_metrics, fold_predictions = evaluate_query_actions(

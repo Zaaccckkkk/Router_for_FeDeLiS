@@ -1,0 +1,221 @@
+query_id,benchmark,status,query,hop,comparable_target_exists,gold_depth,gold_width,pred_depth,pred_width,pred_cost,pred_score,pred_llm_f1,best_depth,best_width,best_llm_f1,baseline_llm_f1,best_minus_pred_f1,pred_minus_baseline_f1,fold
+WebQTest-1135_318230a131c1b59defe126526f4f906f,RoG-cwq,resolved,What Vice President under Nixon was born in Baltimore?,5,True,4,5,1,1,1,6.521948337554932,0.6666666666666666,4,5,1.0,0.6666666666666666,0.33333333333333337,0.0,1
+WebQTest-1256_5aacb7d1a447f581414454d3178a3da3,RoG-cwq,unresolved,What sports team that won the 1993 AFC Championship Game championship did Terrell Owens play for in 2010?,1,True,1,1,1,1,1,3.5822396278381348,0.6666666666666666,1,1,0.6666666666666666,0.6666666666666666,0.0,0.0,1
+WebQTest-131_3034dbdbe8cd8344a68f0e82cd4ef75a,RoG-cwq,unresolved,"Which person who inspired Obama died after June 12,1972?",1,False,,,1,1,1,6.8492279052734375,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTest-1648_f4f365d3835e3b2add5d692ee3ddd85a,RoG-cwq,resolved,Which language is spoken in the country with the national anthem LofsÃ¶ngur?,1,True,1,1,1,1,1,0.5706833004951477,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTest-207_9cd741a266758a1b9228374cb8f95af3,RoG-cwq,unresolved,"Is Deval Patrick a district representative at Harvard University, and where is it located?",2,True,3,1,2,1,2,3.6138381958007812,0.0,4,2,0.5,0.0,0.5,0.0,1
+WebQTrn-1100,RoG-webqsp,unresolved,what do the buddha believe in,1,False,,,4,3,12,1.5924714803695679,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-1191,RoG-webqsp,resolved,what county is plainfield il in,1,True,1,2,1,2,2,4.02994966506958,1.0,1,2,1.0,0.6666666666666666,0.0,0.33333333333333337,1
+WebQTrn-1216_bd92cc74096bc74d2575e5c302fc7701,RoG-cwq,unresolved,What was the latest award that Morgan Freeman won?,2,False,,,4,3,12,2.047675848007202,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-1268,RoG-webqsp,unresolved,where is sony headquarters,2,True,2,2,1,2,2,3.8745813369750977,0.0,2,2,0.6666666666666666,0.0,0.6666666666666666,0.0,1
+WebQTrn-1436,RoG-webqsp,unresolved,what colony is john adams from,2,False,,,2,5,10,2.5663795471191406,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-1476_4eff82a8196bd98424e27a6d803a1b1f,RoG-cwq,unresolved,What Twilight character is played by the nominee of the Young Hollywood Award for Superstar in the Making?,2,True,2,1,4,1,4,2.795746326446533,0.6666666666666666,2,1,0.6666666666666666,0.0,0.0,0.6666666666666666,1
+WebQTrn-1549,RoG-webqsp,resolved,who was cleopatra married too,2,True,2,3,2,2,4,1.9694201946258545,0.8,2,3,1.0,0.0,0.19999999999999996,0.8,1
+WebQTrn-1599_ad1e42ed584cf40d168b6ed4676158c0,RoG-cwq,unresolved,In what English Language work has Ian Somerhalder played?,5,False,,,4,3,12,1.549697995185852,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-1680,RoG-webqsp,unresolved,who is the ravens quarterback 2012,2,False,,,1,1,1,3.9740564823150635,0.0,2,2,0.25,0.0,0.25,0.0,1
+WebQTrn-2138,RoG-webqsp,resolved,what did edward jenner do for a living,1,True,1,2,1,2,2,1.6909071207046509,1.0,1,2,1.0,0.6666666666666666,0.0,0.33333333333333337,1
+WebQTrn-2145,RoG-webqsp,unresolved,what year did edgar allan poe go to college,2,False,,,1,1,1,3.748971939086914,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-2151,RoG-webqsp,resolved,who played giles on buffy the vampire slayer,2,True,1,5,1,1,1,3.4089951515197754,0.0,1,5,1.0,0.0,1.0,0.0,1
+WebQTrn-2334,RoG-webqsp,unresolved,who is cameron crowe,1,False,,,2,5,10,2.6026926040649414,0.25,3,5,0.5454545454545454,0.25,0.2954545454545454,0.0,1
+WebQTrn-2338_f1ed21f5b31958286edf1ad7de9ac989,RoG-cwq,resolved,Which country that is a member of NATO has a government body called the National Assembly?,1,True,1,2,1,2,2,2.4288482666015625,1.0,1,2,1.0,0.6666666666666666,0.0,0.33333333333333337,1
+WebQTrn-2476,RoG-webqsp,resolved,who is the head coach of the indianapolis colts,1,True,1,1,1,1,1,4.479050159454346,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTrn-259_ee702de069d038de4625167c7890a182,RoG-cwq,unresolved,What shows starring Kellie Martin has a run time of less than 45 minutes?,2,False,,,1,1,1,3.7583396434783936,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-2678_da690ed99e4c705861f63a92cb44a7c1,RoG-cwq,resolved,What sea life zoo in Dallas that opened after 1888?,1,True,1,1,1,1,1,4.320953845977783,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTrn-2760_98144e649bed70bead19b101d72b1bc0,RoG-cwq,resolved,What is the field where the team with the mascot D. Baxter the Bobcat plays?,2,True,1,1,1,1,1,2.877765655517578,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTrn-2771_5ec732f4862363c327e38fca4889d921,RoG-cwq,unresolved,What movie did Taylor Momsen play in and was edited by Gus Van Sant?,1,False,,,1,1,1,3.1864490509033203,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-2771_f635fac2c186ec4672bf23908f5b02a8,RoG-cwq,unresolved,What movie is Taylor Momsen in that has a security guard?,2,True,2,1,1,1,1,2.881500244140625,0.0,2,1,0.6666666666666666,0.0,0.6666666666666666,0.0,1
+WebQTrn-2800_21ab7aec331576fad30a0fadf10f8084,RoG-cwq,unresolved,Which movie did Matt Bomer star in that had Sara Elenen as a crew member?,2,True,2,3,1,1,1,4.919135570526123,0.0,3,5,0.6666666666666666,0.0,0.6666666666666666,0.0,1
+WebQTrn-282_0b5333d98ef87008aa02d1fbc1554b05,RoG-cwq,resolved,What kind of money do they use where they speak Jamaican English?,2,True,2,1,2,1,2,2.066002130508423,1.0,2,1,1.0,0.0,0.0,1.0,1
+WebQTrn-2863_ce3e9343c58fe17ff16310b96b875877,RoG-cwq,resolved,"In the country that uses the Bahamian dollar, what is the type of government?",2,True,2,5,2,1,2,3.882803201675415,0.5,2,5,1.0,0.0,0.5,0.5,1
+WebQTrn-3024,RoG-webqsp,resolved,what illness does michael j fox have,1,True,1,1,1,1,1,1.0934644937515259,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTrn-3039_3a8152d581de19d1b839f3822e9392e3,RoG-cwq,unresolved,What language is spoken in the country where El Gouna Beverage Co. Sakara Gold beer is produced?,2,False,,,2,1,2,2.731292724609375,0.19999999999999998,2,5,0.3636363636363636,0.0,0.1636363636363636,0.19999999999999998,1
+WebQTrn-3156,RoG-webqsp,unresolved,what kinda music does john mayer sing,1,False,,,4,5,20,2.796273708343506,0.2222222222222222,1,5,0.5,0.11764705882352941,0.2777777777777778,0.1045751633986928,1
+WebQTrn-3236,RoG-webqsp,unresolved,what school did martin luther king jr attend,2,False,,,1,1,1,4.683382511138916,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-3322_89ad938188e36a4d053dc1c8cdf90a64,RoG-cwq,resolved,What country borders the Mediterranean Sea and contains the city Lyon?,3,True,1,1,1,1,1,2.826387882232666,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTrn-3339,RoG-webqsp,resolved,who plays lola bunny on the looney tunes show,2,True,3,1,1,1,1,2.0766100883483887,0.0,3,1,1.0,0.0,1.0,0.0,1
+WebQTrn-3389,RoG-webqsp,resolved,what country did marco polo come from,1,True,1,1,1,1,1,3.385411262512207,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTrn-3454,RoG-webqsp,unresolved,what year did michael jordan get drafted,2,False,,,1,1,1,5.294007778167725,0.0,1,1,0.0,0.0,0.0,0.0,1
+WebQTrn-3486,RoG-webqsp,unresolved,what to do in ottawa ontario today,1,False,,,4,5,20,2.7064476013183594,0.11764705882352941,1,1,0.11764705882352941,0.11764705882352941,0.0,0.0,1
+WebQTrn-3602_3c65a82425ff4488504b53ba502d0eb7,RoG-cwq,resolved,What location appointed Jan Brewer to governmental position and is where the Navajo tribe live?,2,True,2,1,2,1,2,2.520674228668213,1.0,2,1,1.0,0.0,0.0,1.0,1
+WebQTrn-405_88f399179a817d25c6af0d96eb58b457,RoG-cwq,resolved,The the location that appointed Dioncounda TraorÃ© to governmental position had what type of government empire?,2,True,4,3,4,1,4,2.4004220962524414,0.5,4,3,1.0,0.0,0.5,0.5,1
+WebQTrn-446,RoG-webqsp,unresolved,what was marilyn monroe known for,1,False,,,1,1,1,4.115894794464111,0.0,4,5,0.5,0.0,0.5,0.0,1
+WebQTrn-482,RoG-webqsp,unresolved,where did al capone go to jail,2,False,,,1,1,1,4.076660633087158,0.0,2,1,0.5,0.0,0.5,0.0,1
+WebQTrn-577,RoG-webqsp,resolved,what kind of government does chile have today,1,True,3,5,2,1,2,1.8140383958816528,0.4,3,5,1.0,0.4,0.6,0.0,1
+WebQTrn-665,RoG-webqsp,resolved,where did elvis presley started his career,1,True,1,1,1,1,1,4.3082451820373535,1.0,1,1,1.0,1.0,0.0,0.0,1
+WebQTrn-872_c0495334f4678f947149a7a30d8e49a0,RoG-cwq,resolved,What's the political system in the country that includes the Red Sea Governorate?,2,True,3,3,2,1,2,2.6609394550323486,0.6666666666666666,3,3,1.0,0.0,0.33333333333333337,0.6666666666666666,1
+WebQTest-1074_b972dc56b2ada2098ade7559c9171abf,RoG-cwq,resolved,What team does Lamar Odom play for this year that was a nominee for an award at the 2011 ESPY Awards ceremony?,2,True,2,1,1,1,1,0.8823323249816895,0.0,2,1,1.0,0.0,1.0,0.0,2
+WebQTest-1422_91be1c2a7e72801d5f14dc1ff094a16f,RoG-cwq,unresolved,What languages are spoken in the country that originally breed the Drever dog?,2,False,,,4,1,4,0.4651728868484497,0.25,2,5,0.8333333333333333,0.0,0.5833333333333333,0.25,2
+WebQTest-1583_403eec031cd613bfe527504362411ca0,RoG-cwq,unresolved,What movie starring Taylor Launtner that was decorated by Gene Serdena?,2,True,1,1,1,1,1,1.566580891609192,0.6666666666666666,1,1,0.6666666666666666,0.6666666666666666,0.0,0.0,2
+WebQTest-1845_72ce675be82a5655a30547169d8008e9,RoG-cwq,resolved,"What is the standard time where Tulsa International Airport, Texas and located?",1,True,2,2,1,1,1,0.2468750774860382,0.6666666666666666,2,2,1.0,0.6666666666666666,0.33333333333333337,0.0,2
+WebQTest-200_a738e736179c6a6df3d84e4708294291,RoG-cwq,unresolved,WHat nation has a calling code of 84 and is also where the Vietnam war occured?,1,False,,,3,1,3,0.382864773273468,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTest-267_2fd33d22c32307ac6536d5c5644a1bde,RoG-cwq,unresolved,"Where was the person who said ""In this Revolution no plans have been written for retreat"" raised?",2,False,,,1,1,1,1.0313317775726318,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTest-686_0c26283f80199359b9dbe20a8155f878,RoG-cwq,resolved,When was the world series won in Turner Field?,2,True,4,5,1,1,1,2.1729300022125244,0.0,4,5,1.0,0.0,1.0,0.0,2
+WebQTest-726_cfcb8ee843e79059ec902e53426d5d04,RoG-cwq,unresolved,What are the spoken languages in the country with Antonis Samaras in the government position?,2,False,,,4,1,4,0.5645287036895752,0.6666666666666666,2,1,0.6666666666666666,0.0,0.0,0.6666666666666666,2
+WebQTest-813_1caad1a1421d2f95aeaf27ebafa1eb3c,RoG-cwq,unresolved,Who held his governmental position from earliest and was John F. Kennedy's family?,4,True,1,1,1,1,1,2.1061172485351562,0.5,1,1,0.5,0.5,0.0,0.0,2
+WebQTrn-1004_dfb6c97ac9bf2f0ac07f27dd80f9edc2,RoG-cwq,unresolved,What country uses Euros as its main currency and contains an airport that serves Mijmegen?,2,False,,,1,1,1,0.8678045272827148,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-1078_1baedaceb5eec14ae41e5af41686a0a4,RoG-cwq,resolved,In which venue with a capacity of less than 41782 was the 2012 World Series played?,1,True,1,1,1,1,1,2.378572463989258,1.0,1,1,1.0,1.0,0.0,0.0,2
+WebQTrn-1081_bbb004abdd1101870213771434bac23d,RoG-cwq,resolved,What location where Allen Iverson makes his home has the smallest population?,1,True,1,2,1,1,1,1.6926794052124023,0.0,1,2,1.0,0.0,1.0,0.0,2
+WebQTrn-1126,RoG-webqsp,unresolved,who is the speaker of the house of representatives currently,2,False,,,1,1,1,1.0311295986175537,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-114_54e92a35c6df491a0f50a9ec8bb8ffd0,RoG-cwq,resolved,"What religion featured in ""What Went Wrong"" is used in Russia?",2,True,3,1,3,1,3,0.5844871997833252,1.0,3,1,1.0,0.6666666666666666,0.0,0.33333333333333337,2
+WebQTrn-1693_c599701ac34eba11ad67a49b133ae903,RoG-cwq,resolved,Rita Benson LeBlanc is owner of the sports team with who as head coach?,2,True,2,1,2,1,2,0.12015210092067719,1.0,2,1,1.0,0.0,0.0,1.0,2
+WebQTrn-1764_077e25c334f0906093f9d2f87d0c02af,RoG-cwq,unresolved,Who is on the Supreme Courth that was also on the US Court of Appeals for the Second Circuit?,2,True,3,1,1,1,1,1.6711935997009277,0.0,3,1,0.6666666666666666,0.0,0.6666666666666666,0.0,2
+WebQTrn-1783,RoG-webqsp,unresolved,what is there to do around austin texas,1,False,,,4,5,20,1.0734654664993286,0.10526315789473684,1,5,0.47619047619047616,0.11764705882352941,0.37092731829573933,-0.012383900928792574,2
+WebQTrn-1898_4463fde1ab480d96360dfbaacc12aaef,RoG-cwq,unresolved,What neighbors of Spain have an ISO numeric of the country that is larger than 292?,2,False,,,1,2,2,0.7485257387161255,0.0,4,1,0.5,0.0,0.5,0.0,2
+WebQTrn-1926,RoG-webqsp,resolved,what did john howard study at university,2,True,4,1,1,1,1,1.2501471042633057,0.0,4,1,1.0,0.0,1.0,0.0,2
+WebQTrn-2119,RoG-webqsp,unresolved,what does bill gates own,1,False,,,1,2,2,0.5444448590278625,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-2251_f5d1c7b978519e6d5b63a5e436979572,RoG-cwq,unresolved,"In the film with the character named Baron Papanoida, who wore the Darth Vader suit?",4,True,2,5,1,1,1,0.9358923435211182,0.0,2,5,0.5,0.0,0.5,0.0,2
+WebQTrn-2302,RoG-webqsp,resolved,what continent is australia in,1,True,1,2,1,2,2,0.49642324447631836,1.0,1,2,1.0,0.6666666666666666,0.0,0.33333333333333337,2
+WebQTrn-2349,RoG-webqsp,unresolved,what is the state bird and flower of michigan,2,False,,,1,1,1,0.9690432548522949,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-2536,RoG-webqsp,unresolved,what did ron howard direct,1,False,,,1,1,1,1.4701870679855347,0.0,2,3,0.3333333333333333,0.0,0.3333333333333333,0.0,2
+WebQTrn-2583,RoG-webqsp,unresolved,where does portuguese originate,1,False,,,1,2,2,0.7593739628791809,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-2661,RoG-webqsp,resolved,who created the character of sherlock holmes,1,True,1,1,1,1,1,1.221807837486267,1.0,1,1,1.0,1.0,0.0,0.0,2
+WebQTrn-286,RoG-webqsp,unresolved,who owns aston martin 2012,2,False,,,1,1,1,0.7482868432998657,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-2887_ccbc4d0080a17a5af773a0b250facf79,RoG-cwq,resolved,What European Union country is at once both home to  Sarajevo city and contains Republika Srpska?,1,True,1,1,1,1,1,0.2623002529144287,1.0,1,1,1.0,1.0,0.0,0.0,2
+WebQTrn-3011_38f2104df582048e01765452016f1c0e,RoG-cwq,resolved,"Where did the person who the movie ""The Last Days of Toussaint L'Ouverture"" is about live?",2,True,2,1,1,1,1,1.3868483304977417,0.0,2,1,1.0,0.0,1.0,0.0,2
+WebQTrn-3027,RoG-webqsp,unresolved,who did jerry rice retire with,2,True,4,3,1,1,1,1.2400680780410767,0.0,4,3,0.5,0.0,0.5,0.0,2
+WebQTrn-3337,RoG-webqsp,resolved,who plays edward elric,2,True,2,5,1,1,1,1.2690452337265015,0.0,2,5,1.0,0.0,1.0,0.0,2
+WebQTrn-3421,RoG-webqsp,resolved,who is jojo simmons mother,1,True,1,1,1,1,1,-0.2800444960594177,1.0,1,1,1.0,1.0,0.0,0.0,2
+WebQTrn-3446,RoG-webqsp,resolved,where is tsonga born,1,True,1,1,1,1,1,0.8651152849197388,1.0,1,1,1.0,1.0,0.0,0.0,2
+WebQTrn-3502_786cb0cd6c673e136561232610fe8669,RoG-cwq,resolved,"What is the capital of the location that includes the court, Oregon Supreme Court?",2,True,1,1,1,1,1,1.396912693977356,1.0,1,1,1.0,1.0,0.0,0.0,2
+WebQTrn-3549_40353d146817f5fe5dd67cb0643abe20,RoG-cwq,unresolved,Where was the CO2 emissions per capita once 1961 metric ton and where Hurricane Irene hit?,1,False,,,1,1,1,0.9255402088165283,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-3566,RoG-webqsp,resolved,who plays shao kahn,2,True,2,3,1,1,1,1.2065907716751099,0.0,2,3,1.0,0.0,1.0,0.0,2
+WebQTrn-3573_6cc4345a1d63198a9e52150d0eb4485f,RoG-cwq,unresolved,What movie was Chad Michael Murray's debut in San Francisco Film Society Cinema?,2,False,,,1,1,1,2.244028091430664,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-3576,RoG-webqsp,resolved,who was sworn into office when john f kennedy was assassinated,1,True,1,1,1,1,1,3.1013870239257812,1.0,1,1,1.0,1.0,0.0,0.0,2
+WebQTrn-3591,RoG-webqsp,resolved,where is pyramids of giza located,1,True,1,2,1,2,2,0.8819682598114014,1.0,1,2,1.0,0.6666666666666666,0.0,0.33333333333333337,2
+WebQTrn-416,RoG-webqsp,unresolved,what does michael vick do,1,False,,,1,2,2,0.6126149892807007,0.6666666666666666,1,2,0.6666666666666666,0.0,0.0,0.6666666666666666,2
+WebQTrn-423,RoG-webqsp,resolved,what to do in laughlin nevada,1,True,1,3,1,2,2,0.2635795474052429,0.8,1,3,1.0,0.0,0.19999999999999996,0.8,2
+WebQTrn-485,RoG-webqsp,resolved,what team did tim tebow play for in college,2,True,2,3,1,1,1,1.992736577987671,0.0,2,3,1.0,0.0,1.0,0.0,2
+WebQTrn-601_14401f79da415edb1294256b2504a591,RoG-cwq,unresolved,What is the timezone where the Canchim breed comes from?,2,False,,,1,1,1,0.4486563205718994,0.0,2,2,0.8,0.0,0.8,0.0,2
+WebQTrn-76,RoG-webqsp,unresolved,what college did matt lauer attend,2,False,,,1,1,1,1.8666208982467651,0.0,1,1,0.0,0.0,0.0,0.0,2
+WebQTrn-761,RoG-webqsp,resolved,who does danneel harris play on one tree hill,2,True,2,1,1,1,1,0.5529477596282959,0.0,2,1,1.0,0.0,1.0,0.0,2
+WebQTest-1038_8001f00a95e5baf8a33dfa0a6d2dfb6e,RoG-cwq,unresolved,Which artist recorded Leaning Into the Afternoon?,2,False,,,2,1,2,3.0102641582489014,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTest-105_77d7699db4694c72c125520900c105ae,RoG-cwq,unresolved,In the country where the dog breed Thai Bangkaew originated from what language do they speak?,2,False,,,4,2,8,2.691737651824951,0.14285714285714288,2,1,0.14285714285714288,0.0,0.0,0.14285714285714288,3
+WebQTest-1639_4e4927d401e7175bc228ce96fc658d60,RoG-cwq,unresolved,"What city did the author of ""the wonderful wizard of oz"" die in?",2,False,,,1,1,1,2.691602945327759,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTest-1821_1e8a26d90648b5fbb5587c982734a0e2,RoG-cwq,resolved,"Which Spanish speaking country is the setting of the movie Aguirre, the Wrath of God?",1,True,2,5,2,1,2,2.17706036567688,0.6666666666666666,2,5,1.0,0.6666666666666666,0.33333333333333337,0.0,3
+WebQTest-1897_857d2eb1e040c1355cf1ea9801e9ed5c,RoG-cwq,unresolved,What name is shared by the Actor Gary DeLisle and Ariel's six sisters?,6,False,,,2,1,2,2.390737533569336,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTest-211_cf6cc4cc9ed790243a390f155ae72256,RoG-cwq,unresolved,"Which country who has the nominal gdp of 279,500,000,000 is near italy?",3,False,,,2,1,2,1.7906317710876465,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTest-531_a0ee3a2d09e1a65685015f934c5ee626,RoG-cwq,unresolved,"What kind of music is performed by the ""Heal the World"" lyricist?",2,False,,,2,1,2,2.5294549465179443,0.125,4,3,0.4210526315789474,0.0,0.2960526315789474,0.125,3
+WebQTest-575_06d4fbe0506532de5102dc6a9a417361,RoG-cwq,unresolved,What Louisiana State Senator ended his government position after 1801?,2,False,,,1,1,1,3.7810251712799072,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTest-83_e0133b074487245b89f042f1b8e39568,RoG-cwq,resolved,Which country speaks German and has an airline called V Bird?,1,True,1,1,1,1,1,0.5056288838386536,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-0,RoG-webqsp,resolved,what is the name of justin bieber brother,2,True,2,1,2,1,2,2.5563395023345947,1.0,2,1,1.0,0.0,0.0,1.0,3
+WebQTrn-1161_6ecacb498c6491bc693d0e8222182601,RoG-cwq,resolved,What is the location where the team owned by The Hunt Family plays?,2,True,1,1,1,1,1,2.5324435234069824,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-1200_c237e14c927af207b46d3eeeb1a8589d,RoG-cwq,unresolved,Where did the Cumberland Sheepdog breed originate?,2,False,,,2,2,4,2.2510945796966553,0.0,2,3,0.4,0.0,0.4,0.0,3
+WebQTrn-1284_8b772daf2794563111a7becdf01f44d6,RoG-cwq,unresolved,"What was the blood disease that the award nominated author of ""Anne McCaffrey: A Life With Dragons"" had?",2,False,,,1,1,1,2.6161744594573975,0.0,4,1,0.6666666666666666,0.0,0.6666666666666666,0.0,3
+WebQTrn-1454_ff323231eb812776b5ad8c18dd38c358,RoG-cwq,resolved,In which city with a GNIS feature ID of 962684 does Ryan Lochte live?,1,True,2,1,2,1,2,2.6059069633483887,1.0,2,1,1.0,0.0,0.0,1.0,3
+WebQTrn-1469,RoG-webqsp,unresolved,who is the state senator of kentucky,2,False,,,2,1,2,2.700821876525879,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTrn-1571,RoG-webqsp,resolved,who played kitt in knight rider,2,True,3,1,2,1,2,1.5308787822723389,0.0,3,1,1.0,0.0,1.0,0.0,3
+WebQTrn-1676_c7bb9c3abfbe8b83db0a87b1347bfaaf,RoG-cwq,resolved,"In which part of the world, is the location, where the breed Boerboel, originated at?",2,True,1,1,1,1,1,0.9533573389053345,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-1707_cac1786667e05d667a11e64176d513f1,RoG-cwq,unresolved,The team that won 1983 World Series championship won the World Series in what years?,2,False,,,4,5,20,2.952327013015747,0.0,2,2,0.8,0.0,0.8,0.0,3
+WebQTrn-1708,RoG-webqsp,unresolved,what to do and see in miami florida,1,False,,,2,1,2,2.0079286098480225,0.125,1,5,0.5,0.125,0.375,0.0,3
+WebQTrn-1711_ece235cc1386c89729a43e77cf8e9edf,RoG-cwq,unresolved,Which movie featured Chris Farley in it and George S. Clinton on the soundtrack?,2,True,1,2,1,1,1,3.2485263347625732,0.0,1,2,0.5,0.0,0.5,0.0,3
+WebQTrn-1717,RoG-webqsp,resolved,where was the earthquake in christchurch,1,True,1,1,1,1,1,2.5790202617645264,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-1888,RoG-webqsp,resolved,when did carolina hurricanes win the cup,1,True,1,5,1,1,1,2.5802793502807617,0.0,1,5,1.0,0.0,1.0,0.0,3
+WebQTrn-1949,RoG-webqsp,unresolved,what is the legislature of missouri called,1,False,,,2,1,2,2.6012516021728516,0.6666666666666666,1,3,0.8571428571428571,0.4,0.19047619047619047,0.2666666666666666,3
+WebQTrn-2071,RoG-webqsp,resolved,what currency to take to side turkey,1,True,1,1,1,1,1,1.4683125019073486,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-2146,RoG-webqsp,unresolved,where is amsterdam ohio,1,False,,,2,1,2,1.7080440521240234,0.0,1,2,0.5,0.0,0.5,0.0,3
+WebQTrn-2154,RoG-webqsp,resolved,where does drogba play now,2,True,3,1,2,1,2,1.4520583152770996,0.0,3,1,1.0,0.0,1.0,0.0,3
+WebQTrn-2241_36808d9c3e62ce1bcd729d814d597c46,RoG-cwq,resolved,"Which type currency, does the country, where the Macedonian Thrace Brewery Vergina Premium Lager beer is made utilize?",2,True,2,1,2,1,2,1.5033893585205078,1.0,2,1,1.0,0.0,0.0,1.0,3
+WebQTrn-2338_e0133b074487245b89f042f1b8e39568,RoG-cwq,unresolved,What country is part of NATO and has an airline named V Bird?,2,True,2,3,2,1,2,1.3664782047271729,0.0,2,3,0.6666666666666666,0.0,0.6666666666666666,0.0,3
+WebQTrn-2495,RoG-webqsp,resolved,who 's the oakland raiders head coach,1,True,1,1,1,1,1,2.724217653274536,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-2539_d2479a35ad8cbd030080640bb28065f2,RoG-cwq,resolved,What team did Pujols play for that won the 1964 World Series Championship?,2,True,4,1,2,1,2,2.0457773208618164,0.6666666666666666,4,1,1.0,0.6666666666666666,0.33333333333333337,0.0,3
+WebQTrn-2563_0cef01909ca01069b7fe5f7f960532c4,RoG-cwq,resolved,Where did Chris Cuomo go to school with a sports team called the Fordham Rams?,1,True,1,2,1,1,1,3.556812286376953,0.6666666666666666,1,2,1.0,0.6666666666666666,0.33333333333333337,0.0,3
+WebQTrn-2959,RoG-webqsp,resolved,what was howard carter 's job,1,True,1,2,1,1,1,1.5290732383728027,0.6666666666666666,1,2,1.0,0.6666666666666666,0.33333333333333337,0.0,3
+WebQTrn-3198_eccab81d41f566ce2b4f020c37219ae5,RoG-cwq,unresolved,"Which films, included in the same genre as the movie Abracadabra, star Selena Gomez?",2,False,,,2,1,2,1.8793776035308838,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTrn-3321,RoG-webqsp,resolved,where did robin gibb die,1,True,1,1,1,1,1,1.484360694885254,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-3375,RoG-webqsp,resolved,who was the vice president during george w bush,1,True,1,1,1,1,1,1.8174338340759277,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-3534,RoG-webqsp,unresolved,who was the secretary of state when richard nixon was president,2,False,,,1,1,1,2.512755870819092,0.6666666666666666,1,1,0.6666666666666666,0.6666666666666666,0.0,0.0,3
+WebQTrn-3544_d5618d86b16ee7b75c09ee18d75a85f4,RoG-cwq,unresolved,What country has an ISO of 048 and the official language is Arabic?,1,False,,,2,1,2,1.2443286180496216,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTrn-3616,RoG-webqsp,unresolved,where is louisville ne,1,True,2,5,2,1,2,2.085496187210083,0.0,2,5,0.8,0.0,0.8,0.0,3
+WebQTrn-3627_e52b3a89f0c95e338041f3412e879eee,RoG-cwq,unresolved,"Which movie was Liam Hemsworth in, that was produced by Jim Seibel?",1,False,,,2,1,2,2.015718936920166,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTrn-3696_46ea08a9965c51537b89dfaedd7ef118,RoG-cwq,unresolved,"Of the two state senators of Georgia, who held his governmental position from after Jan 3, 2003?",2,False,,,1,1,1,3.4940147399902344,0.0,1,1,0.0,0.0,0.0,0.0,3
+WebQTrn-55,RoG-webqsp,unresolved,who was queen victoria 's parents called,1,True,1,3,2,1,2,2.2196216583251953,0.0,1,3,0.8,0.0,0.8,0.0,3
+WebQTrn-565,RoG-webqsp,resolved,where was the earthquake in chile 2010,1,True,1,1,1,1,1,1.9369527101516724,1.0,1,1,1.0,1.0,0.0,0.0,3
+WebQTrn-572_47a851d082f8312d040a9684d9f1e1d1,RoG-cwq,resolved,What type of government does the country with second level division Eti-Osa East have today?,2,True,4,2,2,2,4,1.2784005403518677,0.6666666666666666,4,2,1.0,0.0,0.33333333333333337,0.6666666666666666,3
+WebQTrn-672,RoG-webqsp,unresolved,what language do people speak in iran,1,False,,,4,3,12,2.1964972019195557,0.2857142857142857,2,5,0.3636363636363636,0.10526315789473684,0.07792207792207789,0.18045112781954886,3
+WebQTrn-917,RoG-webqsp,resolved,what teams drafted the morris twins,2,True,2,1,2,1,2,1.6511262655258179,1.0,2,1,1.0,0.0,0.0,1.0,3
+WebQTest-1351_ec0e8589cffeb3721b09bd2a5f042e63,RoG-cwq,resolved,What is the money called in where the Omagua dialect is spoken?,2,True,2,1,2,1,2,2.341651678085327,1.0,2,1,1.0,0.0,0.0,1.0,4
+WebQTest-1861_0c09b569cc1c53c62e30e59aa637b17f,RoG-cwq,unresolved,What government system is used in Saudi Arabia an Berlin?,3,True,1,2,2,5,10,2.6851091384887695,0.6666666666666666,1,2,0.6666666666666666,0.0,0.0,0.6666666666666666,4
+WebQTest-2003_dda5fd9c58d5ae6f8d9463ae5f8376dc,RoG-cwq,unresolved,Which Robert Pattinson movies include the Italian language?,2,False,,,1,1,1,3.7502281665802,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTest-207_1688c5f3e3514e570a2ea05f5308616f,RoG-cwq,unresolved,In what place is Harvard University where Scottish Americans are born?,1,True,3,1,2,1,2,2.512772560119629,0.0,3,1,0.6666666666666666,0.0,0.6666666666666666,0.0,4
+WebQTest-301_64f43c406e2a0248b5ad7151d97fe288,RoG-cwq,resolved,What is Amelia Earhart know for being which is also a hobby of Rodrigo Damazio Bovendorp?,1,True,4,3,2,1,2,3.1921966075897217,0.0,4,3,1.0,0.6666666666666666,1.0,-0.6666666666666666,4
+WebQTest-615_7da3ac6e054d08f88a97d6d1f323622a,RoG-cwq,unresolved,Which of Henry VIII's three children died from cancer?,4,True,1,1,1,1,1,3.2646381855010986,0.6666666666666666,1,1,0.6666666666666666,0.6666666666666666,0.0,0.0,4
+WebQTest-621_ad0b8b2df51fda957d4f1eaac3225768,RoG-cwq,unresolved,What nation in which German is the official language has the lowest country calling code?,1,False,,,1,1,1,3.135118246078491,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTest-831_0e84853362b905cda124cda5165afb90,RoG-cwq,unresolved,"What type of religion does Argentina has whose deity is ""Elohim""?",2,True,1,1,2,1,2,2.286210060119629,0.0,1,1,0.6666666666666666,0.6666666666666666,0.6666666666666666,-0.6666666666666666,4
+WebQTest-845_c558a60c0e8dffe8bb7355ec90061346,RoG-cwq,unresolved,"Which Virginia Senator from 2013 held their government position until February 23, 1988?",3,False,,,1,1,1,6.4734697341918945,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTest-888_51b68c204fdbdd549eb36f34986b2cd0,RoG-cwq,unresolved,Which country with an ISO number of 438 borders Switzerland?,1,False,,,2,1,2,2.5894882678985596,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTrn-1163,RoG-webqsp,resolved,in what modern country is the yucatan peninsula located,1,True,1,1,1,1,1,2.172494649887085,1.0,1,1,1.0,1.0,0.0,0.0,4
+WebQTrn-1179_56fd456bd167d9cbf3ac91ebd5f4c921,RoG-cwq,unresolved,"What disease did the author of editions for ""I Put A Spell On You: The Autobiography of Nina Simone"" have?",2,False,,,1,1,1,4.426905632019043,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTrn-1216,RoG-webqsp,unresolved,what awards has morgan freeman won,2,False,,,1,1,1,4.546906471252441,0.09523809523809525,4,5,0.3636363636363636,0.09523809523809525,0.26839826839826836,0.0,4
+WebQTrn-1231_ad3e173797e97a160c2cdbf78d83415b,RoG-cwq,unresolved,In what nation that uses East Africa Time Zone to set its clocks did Osama bin Laden live?,2,False,,,2,1,2,2.625664472579956,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTrn-134,RoG-webqsp,unresolved,who all has dated taylor swift,2,False,,,2,1,2,2.8550848960876465,0.0,2,2,0.6666666666666666,0.0,0.6666666666666666,0.0,4
+WebQTrn-1399_3cab69ad5886a51d2e005537986a46be,RoG-cwq,resolved,"Which country next to Russia, has the location Aksu District, Almaty Region in it?",2,True,1,1,1,1,1,2.114661455154419,1.0,1,1,1.0,1.0,0.0,0.0,4
+WebQTrn-1578,RoG-webqsp,unresolved,who was joseph pulitzer and what did he do,1,False,,,1,1,1,3.220369815826416,0.0,1,5,0.6666666666666666,0.0,0.6666666666666666,0.0,4
+WebQTrn-1586,RoG-webqsp,resolved,who played daniel larusso,2,True,2,1,2,1,2,2.2277352809906006,1.0,2,1,1.0,0.0,0.0,1.0,4
+WebQTrn-1599_2f07143b2efb061a5ad8aa47af93491b,RoG-cwq,unresolved,What movie directed by Roger Avary did Ian Somerhalder starred in?,1,True,1,1,1,1,1,4.374587059020996,0.6666666666666666,1,1,0.6666666666666666,0.6666666666666666,0.0,0.0,4
+WebQTrn-1697_032098f6c26fc3cfec39c0977a6c8054,RoG-cwq,resolved,What country is Puerto Galera and Cebu both in?,1,True,1,1,1,1,1,2.657674551010132,1.0,1,1,1.0,1.0,0.0,0.0,4
+WebQTrn-1757,RoG-webqsp,resolved,what kourtney kardashian baby girls name,1,True,1,1,1,1,1,1.6278786659240723,1.0,1,1,1.0,1.0,0.0,0.0,4
+WebQTrn-1782_77ee60923f330cb4f17c50dcc001a3f3,RoG-cwq,unresolved,What countries in the South Africa Time Zone does South Africa border?,2,False,,,1,1,1,2.698641061782837,0.0,4,3,0.4,0.0,0.4,0.0,4
+WebQTrn-1787_37b9c0e922261985eccb3a84942b0059,RoG-cwq,resolved,What currency is presently used in the Netherlands and was one used in Serbia & Montenegro?,1,True,2,5,2,1,2,2.7463977336883545,0.6666666666666666,2,5,1.0,0.6666666666666666,0.33333333333333337,0.0,4
+WebQTrn-180,RoG-webqsp,unresolved,which countries are part of the united kingdom,1,False,,,1,3,3,2.4798405170440674,0.33333333333333337,1,2,0.888888888888889,0.0,0.5555555555555556,0.33333333333333337,4
+WebQTrn-1983_0e3181adbeb45d766cd8ebdf97f35b90,RoG-cwq,unresolved,What languages are spoken in the Captain Pugwash universe?,2,False,,,1,1,1,2.408769369125366,0.0,3,1,0.5,0.0,0.5,0.0,4
+WebQTrn-24,RoG-webqsp,resolved,what form of government does russia have today,1,True,1,3,1,3,3,1.4733052253723145,1.0,1,3,1.0,0.5,0.0,0.5,4
+WebQTrn-2480,RoG-webqsp,resolved,what time zone is ontario toronto,1,True,1,1,1,1,1,2.8613264560699463,1.0,1,1,1.0,1.0,0.0,0.0,4
+WebQTrn-2591,RoG-webqsp,unresolved,who are china 's trading partners,2,False,,,1,3,3,2.2773334980010986,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTrn-2595,RoG-webqsp,resolved,who did mario lopez just marry,2,True,2,1,2,1,2,1.905075192451477,1.0,2,1,1.0,0.0,0.0,1.0,4
+WebQTrn-2810,RoG-webqsp,resolved,what religions are recognized in canada,2,True,2,3,1,3,3,2.1056079864501953,0.0,2,3,1.0,0.0,1.0,0.0,4
+WebQTrn-2858_d022db4c9a830be015a9f3592e7db2e4,RoG-cwq,unresolved,What to do as part of the Viti Levu Group in nadi fiji?,1,False,,,2,5,10,3.231976270675659,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTrn-316,RoG-webqsp,unresolved,what did abraham lincoln do before he was president,2,False,,,1,1,1,5.714381694793701,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTrn-3180,RoG-webqsp,resolved,what type of political system is spain,1,True,1,2,1,2,2,1.8014270067214966,1.0,1,2,1.0,0.8,0.0,0.19999999999999996,4
+WebQTrn-3206,RoG-webqsp,unresolved,what movies has angelina jolie in,1,False,,,1,1,1,3.439375877380371,0.0,2,5,0.1851851851851852,0.0,0.1851851851851852,0.0,4
+WebQTrn-3212_a64ef0f5ce397a5e1ef6fcd550ebfcfb,RoG-cwq,unresolved,What movie starring Jenna Dewan that the music was produced by Aaron Zigman?,2,True,1,5,1,1,1,3.2980968952178955,0.5,1,5,0.5714285714285715,0.5,0.07142857142857151,0.0,4
+WebQTrn-322,RoG-webqsp,resolved,where does leland chapman live now,2,True,2,1,2,1,2,2.4881887435913086,1.0,2,1,1.0,0.0,0.0,1.0,4
+WebQTrn-3333_0b01f03e9613c24989005fbcec51d44c,RoG-cwq,unresolved,What country was the setting for a work about Robert De Niro Sr.?,1,False,,,1,1,1,4.364569664001465,0.0,1,1,0.0,0.0,0.0,0.0,4
+WebQTrn-3415_067192285b148f91665176a691f7ac79,RoG-cwq,resolved,Which Iberian Peninsula country was ruled by Philip III?,1,True,3,1,1,1,1,3.6252589225769043,0.0,3,1,1.0,0.0,1.0,0.0,4
+WebQTrn-3617,RoG-webqsp,resolved,where does missouri river end,1,True,1,1,1,1,1,2.9147183895111084,1.0,1,1,1.0,1.0,0.0,0.0,4
+WebQTrn-40_22c24de847633b305aed88e616527539,RoG-cwq,unresolved,What are the sons' names of the artist who had the Love Hurts concert tour?,2,True,4,1,1,1,1,3.951171398162842,0.0,4,1,0.8,0.0,0.8,0.0,4
+WebQTrn-486_c0c8be864bca00b97165308cf17e24aa,RoG-cwq,unresolved,Which airport is in Paris and has TAP Portugal Airline?,1,True,3,2,2,5,10,2.960437297821045,0.0,4,5,0.6666666666666666,0.0,0.6666666666666666,0.0,4
+WebQTrn-630,RoG-webqsp,unresolved,what was the name of wright brothers plane,1,False,,,1,3,3,2.6271467208862305,0.6666666666666666,1,3,0.6666666666666666,0.2857142857142857,0.0,0.38095238095238093,4
+WebQTest-1048_c01d269b3d6197286ccb133ce49600df,RoG-cwq,unresolved,"Of King Henry VII's children, which was buried first?",1,True,1,1,1,1,1,1.0714884996414185,0.6666666666666666,1,1,0.6666666666666666,0.6666666666666666,0.0,0.0,5
+WebQTest-1055_467c97b5e3c4a65072dec9d19e6a3797,RoG-cwq,resolved,Best things to do with kids in essex a zoo with 270 species?,1,True,1,1,1,1,1,-0.6510075926780701,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTest-1198_2c54a8a164c48118d2d795d40312e675,RoG-cwq,resolved,"Who was the subject of the film, Shakesspeare in love and was said to influence Samuel Taylor Coleridge?",1,True,2,3,1,1,1,0.8658795952796936,0.6666666666666666,2,3,1.0,0.6666666666666666,0.33333333333333337,0.0,5
+WebQTest-1865_b85623c0871102f1bcc96509ad5d4343,RoG-cwq,unresolved,What was the film job of Galien Malferiol and actual job of Jesus?,1,True,2,1,1,1,1,0.267596036195755,0.0,2,1,0.6666666666666666,0.0,0.6666666666666666,0.0,5
+WebQTest-77_6dfc5ab789a3355f11cc7b8c76028e65,RoG-cwq,resolved,What is the capital city of the country where the currency Austrian schilling is used?,2,True,1,1,1,1,1,0.6037201881408691,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTest-813_e36dedcc9289582ceb8d0d0d9d396f49,RoG-cwq,unresolved,"What was the name of John F. Kennedy's family member who died on September 6, 1888?",4,False,,,1,1,1,2.0571019649505615,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-1009_cb535b26088aa7a8cf49a7aba65ef3d3,RoG-cwq,unresolved,"Using the nominal gdp of the US dollar, what country has adopted the currency of the Euro?",3,True,1,5,1,1,1,2.45853328704834,0.0,1,5,0.2857142857142857,0.0,0.2857142857142857,0.0,5
+WebQTrn-14,RoG-webqsp,resolved,where is rome italy located on a map,1,True,4,5,2,1,2,0.059676557779312134,0.5,4,5,1.0,0.5,0.5,0.0,5
+WebQTrn-1591_429d93f456d68fc4eee4748dd169e7ee,RoG-cwq,resolved,What movie did JJ Abrams direct with a character named Carol Marcus?,1,True,1,1,1,1,1,0.13094663619995117,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTrn-1715,RoG-webqsp,unresolved,where george washington carver go to school,2,False,,,1,1,1,1.0925381183624268,0.0,4,3,0.8,0.0,0.8,0.0,5
+WebQTrn-1766,RoG-webqsp,resolved,what club did aguero play for before man city,2,True,2,2,3,1,3,-0.3664265275001526,0.0,2,2,1.0,0.0,1.0,0.0,5
+WebQTrn-1928,RoG-webqsp,unresolved,from which university did president obama receive his bachelor 's degree,2,False,,,1,1,1,1.1665778160095215,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-1982_aafb87a3c2845babd80a81ddb504c298,RoG-cwq,unresolved,What was the most recent film to be release which featured Quentin Tarantino?,1,False,,,1,1,1,1.2297265529632568,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-2047,RoG-webqsp,unresolved,where do the chicago cubs play,1,False,,,1,1,1,0.59036785364151,0.5,1,3,0.8,0.5,0.30000000000000004,0.0,5
+WebQTrn-2067_673bc00c1822067dd17f7d42c7338f6b,RoG-cwq,unresolved,"What zoo that opened on May 1, 1838 in Amsterdam can people go to?",1,False,,,1,1,1,0.07973536849021912,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-2079,RoG-webqsp,unresolved,what years the steelers won the super bowl,1,False,,,1,1,1,1.3348339796066284,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-211_20f08f012745c0876649db86bc922a96,RoG-cwq,resolved,What money or currency type do they use where the spoken language is Mapudungun?,2,True,2,1,2,1,2,-0.13124383985996246,1.0,2,1,1.0,0.0,0.0,1.0,5
+WebQTrn-223,RoG-webqsp,resolved,what county is rihanna from,1,True,1,1,1,1,1,0.08251769095659256,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTrn-257,RoG-webqsp,resolved,what position does rafael furcal play,1,True,1,2,1,2,2,-0.05086171627044678,1.0,1,2,1.0,0.6666666666666666,0.0,0.33333333333333337,5
+WebQTrn-2771_fad2c3bba2e95c52f3d536f261b6db35,RoG-cwq,unresolved,"What movie, produced by Jim Lemley, featured Taylor Momsen?",1,False,,,1,1,1,0.09934556484222412,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-2776_d822da5d7e938e7f158e05c433856f13,RoG-cwq,unresolved,Which Chris Colfer film was written by Terence Heuston?,1,True,1,1,1,1,1,0.5979521870613098,0.6666666666666666,1,1,0.6666666666666666,0.6666666666666666,0.0,0.0,5
+WebQTrn-2884,RoG-webqsp,resolved,what team did magic johnson play for,2,True,1,2,1,2,2,-0.18443961441516876,1.0,1,2,1.0,0.0,0.0,1.0,5
+WebQTrn-3079_7101775a684229cedbea5d46e23e95d7,RoG-cwq,resolved,In which location with a GNIS ID of 1341547 does Jeb Bush live?,1,True,2,1,2,1,2,-0.3274717628955841,1.0,2,1,1.0,0.0,0.0,1.0,5
+WebQTrn-3261_edd867fed7a87e2ab21c03288665f35b,RoG-cwq,resolved,What language is commonly spoken in the place with a political body called Council of States?,2,True,2,5,3,3,9,-0.1595485359430313,0.6666666666666666,2,5,1.0,0.0,0.33333333333333337,0.6666666666666666,5
+WebQTrn-3381,RoG-webqsp,resolved,what kind of money does chile use,1,True,1,1,1,1,1,-0.31186386942863464,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTrn-3440_2b4b43d4c46749d4485ef7992e036756,RoG-cwq,resolved,What Venetian body of water is under the Ponte della Liberta?,1,True,1,1,1,1,1,0.6648680567741394,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTrn-3537,RoG-webqsp,unresolved,what year was tom brady drafted,2,False,,,1,1,1,0.9694437384605408,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-3540_d47235946e6c9112db92fd6fbb6e26b3,RoG-cwq,unresolved,When did the champion of 1969 World Series championship win the pennant?,2,False,,,1,1,1,1.9610379934310913,0.0,2,5,0.6666666666666666,0.0,0.6666666666666666,0.0,5
+WebQTrn-3548_5ef41bf2d452832514748dc5ae529bd8,RoG-cwq,unresolved,Which city of residence for Charlton Heston is the birthplace of Dennis Northcutt?,2,False,,,1,1,1,1.7285065650939941,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-358_83848dc79b647efd6072c66a56c17b4b,RoG-cwq,resolved,Which 2011 movie that Taylor Lautner appear in that had Keith Brian Burns as its production designer?,1,True,4,3,1,1,1,0.27681857347488403,0.6666666666666666,4,3,1.0,0.6666666666666666,0.33333333333333337,0.0,5
+WebQTrn-3593_32bf062763495f2d75e1989405e6e697,RoG-cwq,unresolved,In the Muppets movie who plays Kermit's character?,2,True,3,3,1,1,1,0.40669548511505127,0.0,3,3,0.5,0.0,0.5,0.0,5
+WebQTrn-3594_71c93aa9a352e8738c065f3887d01c12,RoG-cwq,unresolved,What kind of government does the place that has a government called the Government of Iran have today?,2,False,,,4,5,20,-0.03278438001871109,0.33333333333333337,3,3,0.7499999999999999,0.0,0.4166666666666665,0.33333333333333337,5
+WebQTrn-3650,RoG-webqsp,resolved,what was sherlock holmes famous for,1,True,3,1,3,1,3,-0.06521379202604294,1.0,3,1,1.0,0.0,0.0,1.0,5
+WebQTrn-368_ea7ebebfb3a25c8e83b4bbfdda67d52d,RoG-cwq,unresolved,The State Administration of Foreign Exchange is in what jurisdiction?,2,False,,,1,1,1,0.36562299728393555,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-3730,RoG-webqsp,unresolved,what are the african nations,1,False,,,1,1,1,0.4649760127067566,0.07272727272727272,1,5,0.20338983050847456,0.07272727272727272,0.13066255778120184,0.0,5
+WebQTrn-413_05d28aa0a61e386be88f662f8efa90d8,RoG-cwq,resolved,What language is spoken in the governmental jurisdiction that has an office holder named Wu Xiaoling?,2,True,4,1,3,1,3,-0.2785649001598358,0.0,4,1,1.0,0.0,1.0,0.0,5
+WebQTrn-646,RoG-webqsp,resolved,who wrote the book of st. john,1,True,1,1,1,1,1,0.5235182046890259,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTrn-685,RoG-webqsp,resolved,who was king or queen after victoria,1,True,2,1,1,1,1,0.49121883511543274,0.0,2,1,1.0,0.0,1.0,0.0,5
+WebQTrn-70_bfc93963af68fa0a962ffbbfe6eb4ca9,RoG-cwq,resolved,What time zone is governmental office holder Will Nicholson located in?,2,True,3,1,1,1,1,0.33926889300346375,0.0,3,1,1.0,0.0,1.0,0.0,5
+WebQTrn-826,RoG-webqsp,resolved,what kind of money does the philippines use,1,True,1,1,1,1,1,-0.0009117778390645981,1.0,1,1,1.0,1.0,0.0,0.0,5
+WebQTrn-863,RoG-webqsp,unresolved,what instruments does john williams use,1,True,1,3,2,1,2,0.02196621336042881,0.0,1,3,0.9090909090909091,0.5714285714285715,0.9090909090909091,-0.5714285714285715,5
+WebQTrn-952_be9bf330046979d00586176d68d50597,RoG-cwq,unresolved,What Mark Cuban movie was Charlie Hunnam in?,1,False,,,1,1,1,0.14992070198059082,0.0,1,1,0.0,0.0,0.0,0.0,5
+WebQTrn-974_4582416e3c3d90c4cb9101e3291b593e,RoG-cwq,unresolved,What language do the people speak where the second level division Istanbul Province is located?,2,False,,,3,3,9,-0.21129541099071503,0.33333333333333337,2,1,0.33333333333333337,0.0,0.0,0.33333333333333337,5
+WebQTrn-981,RoG-webqsp,unresolved,what does latin america consist of,1,False,,,1,2,2,0.1743765026330948,0.0,4,5,0.08333333333333333,0.0,0.08333333333333333,0.0,5
